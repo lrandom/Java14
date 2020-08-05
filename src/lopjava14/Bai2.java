@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package lopjava14;
-
 import java.util.Scanner;
 
 /**

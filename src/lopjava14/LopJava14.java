@@ -14,10 +14,10 @@ public class LopJava14 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num = 5;
+        /*int num = 5;
         int age = 18;
         boolean troiMua = true;
-        int sosanh = 10;
+        int sosanh = 10;*/
         // TODO code application logic here
         /*System.out.println("Hello các bạn, Mình tên là Luân");
         System.out.printf("%d %d %s",10,10,"helelo");*/
@@ -118,13 +118,26 @@ public class LopJava14 {
            a++;
        }*/
        
-       for(int i =0 ;i<10;i++){
+       /*for(int i =0 ;i<10;i++){
            System.out.println(i);
-       }
+       }*/
+       /*Human luan = new Human("Mat nau", "Toc den");
+        
+       System.out.println(luan.eyeColor);
+       
+       luan.run(); //Im running*/
+       
+       /*TestClass test1 = new TestClass();
+       Human human = new Human("Den", "Den");
+       test1.test(human);
+       System.out.println(human.eyeColor);*/
+       
+       System.out.println(Human.greeting); //goi thuoc tinh
+       Human.getMyGreeting();//goi pt tinh
     }
     
     
-    public static boolean soNT(int num){
+    /*public static boolean soNT(int num){
         for(int i = 2;i<num;i++){
            if(num%i==0){
               return false;
@@ -147,7 +160,7 @@ public class LopJava14 {
        }
        
        return false;
-    }
+    }*/
     
     
 }
