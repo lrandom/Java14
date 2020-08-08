@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lopjava14;
-
-import bt5.b2.Employee;
+package bt5.b1;
 
 /**
  *
  * @author Lrandom
  */
-public class TestClass {
+public class Vehicle {
+    int price;
+    String color;
 
+    public Vehicle(int price, String color) {
+        this.price = price;
+        this.color = color;
+    }
     
-    public static void main(String[] args) {
-        Employee em = new Employee();
-        em.display();
+    
+    public void accelerate(){
+        
     }
 }

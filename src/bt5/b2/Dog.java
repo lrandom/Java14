@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lopjava14;
-
-import bt5.b2.Employee;
+package bt5.b2;
 
 /**
  *
  * @author Lrandom
  */
-public class TestClass {
+public class Dog extends Animal{
 
-    
-    public static void main(String[] args) {
-        Employee em = new Employee();
-        em.display();
+    @Override
+    void go() {
+        System.out.println("Đi");
     }
+
+    @Override
+    void run() {
+        System.out.println("Chạy");
+    }
+    
+    
 }
